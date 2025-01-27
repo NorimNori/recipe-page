@@ -59,6 +59,10 @@ body {
     border-bottom: solid 1px hsl(30, 18%, 87%);
 }
 
+#border {
+    border-bottom: none;
+}
+
 .recipe__subtitle {
     font-family: 'Young Serif';
     font-weight: 400;
@@ -71,6 +75,42 @@ body {
     color: hsl(30, 10%, 34%);
 }
 
+.recipe__nutrition-description {
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+.recipe__nutrition-table {
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table__row {
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.nutrition-table__row:last-child {
+    border-bottom: none;
+}
+  
+.nutrition-table__cell {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.nutrition-table__cell:first-child {
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+  
+.nutrition-table__cell:last-child {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+  
 footer {
     font-size: 11px;
     text-align: center;
