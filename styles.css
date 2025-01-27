@@ -131,6 +131,10 @@ body {
     font-weight: 700;
     color: hsl(14, 45%, 36%);
 }
+
+.footer_mobile {
+    display: none;
+}
   
 footer {
     font-size: 11px;
@@ -176,8 +180,17 @@ footer a {
         padding: 2rem;
     }
 
-    footer {
+    .footer_desktop {
         display: none;
+    }
+    
+    .footer_mobile{
+        width: 100%;
+        padding: 0;
+        margin: 0 0 1.7rem;
+
+        display: flex;
+        justify-content: center;
     }
 }
 
