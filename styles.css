@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     width: 100%;
     padding: 4rem;
@@ -37,7 +38,6 @@ body {
 
 .recipe__description {
     font-family: 'Outfit';
-    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .3px;
     padding-bottom: 2em;
@@ -51,7 +51,7 @@ body {
 }
 
 .recipe__section {
-    font-size: 400;
+    font-weight: 400;
     padding: 1.8em .8em;
     border-bottom: solid 1px hsl(30, 18%, 87%);
 }
@@ -85,7 +85,6 @@ body {
 
 .recipe__list li {
     font-weight: 400;
-    font-size: 1rem;
     margin-bottom: .8rem;
     padding-left: 1.1rem;
     line-height: 150%;
@@ -99,7 +98,6 @@ body {
 .recipe__nutrition-description {
     font-family: 'Outfit';
     font-weight: 400;
-    font-size: 1rem;
     padding: .3em 0 1em;
     color: hsl(30, 10%, 34%);
 }
@@ -121,7 +119,6 @@ body {
   
 .nutrition-table__cell {
     padding: 0.75rem 1rem;
-    font-size: 1rem;
     text-align: left;
 }
 
@@ -144,4 +141,80 @@ footer {
 
 footer a {
     color: hsl(228, 45%, 44%)
+}
+
+@media (max-width: 1045px) {
+
+    .recipe {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0;
+    }
+
+    .recipe {
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .recipe__image {
+        border-radius: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .recipe__title,
+    .recipe__description{
+        padding: 1rem 2rem;
+    }
+
+    .recipe__info {
+        padding: 2rem;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 395px) {
+
+    .recipe__title {
+        font-size: 2.1rem;
+    }
+
+    .recipe__title,
+    .recipe__description {
+        padding: .4rem 1.5rem;
+    }
+    
+    .recipe__section,
+    .recipe__section-time,
+    .recipe__description {
+        font-size: .95rem;
+    }
+
+    .recipe__section {
+        padding: 1.5em .5em;
+    }
+    .recipe__section-time {
+        padding: 1.3rem 1.8rem;
+    }
+
+    .recipe__subtitle,
+    .recipe__subtitle_time {
+        font-size: 1.3rem;
+        letter-spacing: .8px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .recipe__title {
+        font-size: 1.9rem;
+    }
 }
