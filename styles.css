@@ -49,8 +49,26 @@ body {
     background-color: hsl(330, 100%, 98%);
 }
 
-.recipe__subtitle {
+.recipe__subtitle_time {
+    font-weight: 600;
     color: hsl(332, 51%, 32%);
+}
+
+.recipe__section {
+    padding: 1rem;
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.recipe__subtitle {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.recipe__ingredients-list {
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
 }
 
 footer {
