@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    width: 100%;
+    padding: 3rem;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr auto;
+    background-color: hsl(30, 18%, 87%);
+}
+
+.recipe {
+    width: 50%;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2.5rem;
+}
+
+.header__image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.header__title {
+    font-family: 'Young Serif';
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.header__description {
+    font-family: 'Outfit';
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
 }
 
 footer {
