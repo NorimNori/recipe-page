@@ -7,7 +7,7 @@
 }
 body {
     width: 100%;
-    padding: 3rem;
+    padding: 4rem;
     min-height: 100dvh;
     display: grid;
     place-items: center;
@@ -16,10 +16,10 @@ body {
 }
 
 .recipe {
-    width: 50%;
+    width: 60%;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
-    padding: 2.5rem;
+    padding: 2.5rem 2.5rem .5rem;
 }
 
 .recipe__image {
@@ -31,32 +31,38 @@ body {
     font-family: 'Young Serif';
     font-size: 2.5rem;
     font-weight: 400;
+    padding: .5em 0;
     color: hsl(24, 5%, 18%);
 }
 
 .recipe__description {
     font-family: 'Outfit';
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
+    letter-spacing: .3px;
+    padding-bottom: 2em;
     color: hsl(30, 10%, 34%)
-}
-
-.recipe__preparation {
-    padding: 2rem;
-    border-radius: 15px;
-    font-family: 'Outfit';
-    color: hsl(30, 10%, 34%);
-    background-color: hsl(330, 100%, 98%);
 }
 
 .recipe__subtitle_time {
     font-weight: 600;
+    padding-bottom: .7em;
     color: hsl(332, 51%, 32%);
 }
 
 .recipe__section {
-    padding: 1rem;
+    font-size: 400;
+    padding: 1.8em .8em;
     border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.recipe__section-time {
+    padding: 1.5rem 2rem;
+    border-radius: 15px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(330, 100%, 98%);
 }
 
 #border {
@@ -64,19 +70,37 @@ body {
 }
 
 .recipe__subtitle {
-    font-family: 'Young Serif';
     font-weight: 400;
+    font-family: 'Young Serif';
+    margin-bottom: 1rem;
     color: hsl(14, 45%, 36%);
 }
 
 .recipe__list {
     font-family: 'Outfit';
-    font-weight: 400;
+    padding-left: 1.5rem;
     color: hsl(30, 10%, 34%);
+    list-style-position: outside;
+}
+
+.recipe__list li {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: .8rem;
+    padding-left: 1.1rem;
+    line-height: 150%;
+}
+
+.recipe__list li::marker {
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
 }
 
 .recipe__nutrition-description {
     font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .3em 0 1em;
     color: hsl(30, 10%, 34%);
 }
 
@@ -114,7 +138,8 @@ body {
 footer {
     font-size: 11px;
     text-align: center;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
+    color: hsl(35, 8%, 29%);
 }
 
 footer a {
