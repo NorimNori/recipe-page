@@ -22,23 +22,35 @@ body {
     padding: 2.5rem;
 }
 
-.header__image {
+.recipe__image {
     width: 100%;
     border-radius: 15px;
 }
 
-.header__title {
+.recipe__title {
     font-family: 'Young Serif';
     font-size: 2.5rem;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
 }
 
-.header__description {
+.recipe__description {
     font-family: 'Outfit';
     font-size: 1.1rem;
     font-weight: 400;
     color: hsl(30, 10%, 34%)
+}
+
+.recipe__preparation {
+    padding: 2rem;
+    border-radius: 15px;
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(330, 100%, 98%);
+}
+
+.recipe__subtitle {
+    color: hsl(332, 51%, 32%);
 }
 
 footer {
