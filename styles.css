@@ -17,7 +17,7 @@ body {
 }
 
 .recipe {
-    width: 60%;
+    width: 800px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     padding: 2.5rem 2.5rem .5rem;
@@ -147,14 +147,7 @@ footer a {
     color: hsl(228, 45%, 44%)
 }
 
-@media (max-width: 1045px) {
-
-    .recipe {
-        width: 75%;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 930px) {
 
     body {
         padding: 0;
@@ -197,7 +190,7 @@ footer a {
 @media (max-width: 395px) {
 
     .recipe__title {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 
     .recipe__title,
