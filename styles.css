@@ -65,8 +65,8 @@ body {
     background-color: hsl(330, 100%, 98%);
 }
 
-#border {
-    border-bottom: none;
+.recipe__section:last-child {
+    border: none;
 }
 
 .recipe__subtitle {
