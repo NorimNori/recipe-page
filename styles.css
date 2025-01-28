@@ -132,10 +132,6 @@ body {
     color: hsl(14, 45%, 36%);
 }
 
-.footer_mobile {
-    display: none;
-}
-  
 footer {
     font-size: 11px;
     text-align: center;
@@ -151,6 +147,7 @@ footer a {
 
     body {
         padding: 0;
+        position: absolute;
     }
 
     .recipe {
@@ -172,18 +169,13 @@ footer a {
     .recipe__info {
         padding: 2rem;
     }
-
-    .footer_desktop {
-        display: none;
-    }
     
-    .footer_mobile{
+    footer {
         width: 100%;
         padding: 0;
-        margin: 0 0 1.7rem;
-
-        display: flex;
-        justify-content: center;
+        margin: -.5rem;
+        bottom: 1.5rem;
+        position: relative;
     }
 }
 
